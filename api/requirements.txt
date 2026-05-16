@@ -1,0 +1,6 @@
+# Run from the repository root so this server uses your local Ultralytics fork.
+-e .
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+opencv-python>=4.6.0
